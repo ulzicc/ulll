@@ -1,1 +1,262 @@
+<html>
 
+<head>
+
+<title>LATIHAN FORM DALAM HTMI</title>
+
+</head>
+
+<body>
+
+<form name="formulir" action="" method="post">
+
+<table width="100%" border="1">
+
+<tr>
+
+<td colspan="2" height="100px" align="center">
+
+HEADER
+
+</td>
+
+</tr>
+
+<tr>
+
+<td valign="top" width="200px">
+
+</td>
+
+<td>
+
+<a href="index.html"> Home </a> <br>
+
+<a href="registrasi.html">Registrasi</a>
+
+<div align="center">
+
+</div>
+
+<font size="+2">
+
+Pendaftaran Account Baru
+
+<br>
+
+<b>FACESCHOOL</b>
+
+<i>The first Indonesian high school network.</i>
+
+</font>
+
+<table align="center" width="700px" border="1">
+
+<tr>
+
+<td>
+
+Nama Lengkap
+
+</td>
+
+<td>
+
+TIPE INPUT TEXT
+
+<input type="text" name="nama">
+
+</td>
+
+</tr>
+
+<tr> <td>
+
+Gender
+
+</td>
+
+<td>
+
+TIPE INPUT RADIO BUTTON
+
+<input type="radio" name="gender"> Pria
+
+<input type="radio" name="gender"> Wanita
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Hobi
+
+</td>
+
+<td>
+
+TIPE INPUT CHECK BOX
+
+<input type="checkbox" name="main bola"> Pria
+
+<br>
+
+<input type="checkbox" name="bulutangkis"> Wanita
+
+<br> <input type="checkbox" name="musik"> Musik
+
+<br>
+
+</td>
+
+</tr> <tr>
+
+<td> Nomor HP
+
+</td
+
+TIPE INPUT TEXT
+
+<td>
+
+<input type="text" name="hp">
+
+</td>
+
+</tr>
+<tr>
+
+<td>
+
+Kota Sekarang
+
+</td>
+
+<td>
+
+<select name="kota" size="1">
+
+<option> Jakarta
+
+<option> Depok <option> Bogor
+
+TIPE SELECT
+
+<option> Bekasi
+
+<option> Aceh <option> Bandung
+
+<option> Jayapura
+
+<option> Solo
+
+< /select>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Alamat
+
+</td>
+
+TIPE TEXT AREA
+
+<textarea name="alamat" cols="20" rows="5"></textarea>
+
+<td>
+
+</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+Sekolah </td>
+
+<td>
+
+</td </tr>
+
+TIPE INPUT TEXT
+
+<input type="text" name="sekolah">
+
+<tr> < td>
+
+Username
+
+</td>
+
+<td>
+
+TIPE INPUT TEXT
+
+<input type="text" name="username">
+
+</td>
+
+</tr>
+
+<tr>
+
+<td> Password
+
+</td>
+
+<td>
+
+</td>
+
+TIPE INPUT PASSWORD
+
+<input type="password" name="password">
+
+</tr>
+
+<tr>
+
+<td colspan="2" align="center">
+
+<input type="submit" value="Daftar">
+
+<input type="reset" value="Reset">
+
+</td>
+
+</tr> </table>
+
+TIPE INPUT TOMBOL SUBMIT DAN RESET
+
+</td>
+
+</tr> <tr>
+
+<td align="center" colspan="2">
+
+<font size="2">
+
+scopy: 2010
+
+</font>
+
+Indonesian High School Student Community
+
+</td> </tr>
+
+</table>
+
+</form>
+
+</body>
+
+</html>
